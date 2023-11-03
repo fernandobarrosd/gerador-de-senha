@@ -1,0 +1,8 @@
+{
+  "name": "gerador-senha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fernandobarrosd/gerador-de-senha.git",
+  "author": "fernandobarrosd <fdebarros0910-2004@hotmail.com>",
+  "license": "MIT"
+}
