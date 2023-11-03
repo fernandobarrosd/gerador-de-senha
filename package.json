@@ -2,8 +2,11 @@
   "name": "gerador-senha",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:fernandobarrosd/gerador-de-senha.git",
-  "author": "fernandobarrosd <fdebarros0910-2004@hotmail.com>",
+  "scripts": {
+   "start:dev": "vite",
+   "start": "vite preview",
+   "build": "vite build"
+  },
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.9.1",
