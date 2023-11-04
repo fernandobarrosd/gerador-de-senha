@@ -1,0 +1,23 @@
+.popup-container {
+    background-color: var(--white);
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+    bottom: -70px;
+    padding: 1.5rem;
+    border-radius: 0.2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: 1s bottom;
+    display: flex;
+    gap: 2rem;
+}
+
+.popup-container.visible {
+    bottom: 0;
+}
+
+.popup-container .popup-icon {
+    width: 20px;
+    height: auto;
+}
