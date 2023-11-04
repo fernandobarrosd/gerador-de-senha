@@ -13,7 +13,10 @@ Para este projeto foi usado:
 
 
 Production: São dependencias que vão para a producão, ou seja, quando o projeto
-foi buildado essas dependencias vão ser levadas juntas
+foi buildado essas dependencias vão ser levadas juntas.
 
 Development: São dependencias que não vão para a producão, ou seja, quando o projeto
-foi buildado essas dependencias não vão ser levadas juntas
+foi buildado essas dependencias não vão ser levadas juntas.
+
+
+Password Generator website link: https://password-generator-kappa-roan.vercel.app/
