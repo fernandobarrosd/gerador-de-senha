@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: 0;
+}
+
+button, input, select {
+    border: 0;
+}
+
+button, select {
+    cursor: pointer;
+}
