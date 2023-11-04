@@ -1,0 +1,102 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./popup-style.css";
+@import "./button-style.css";
+@import "./input-container-style.css";
+
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.s-password-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--black);
+    background-color: var(--white);
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.6rem;
+}
+
+.s-password-generator .title {
+    margin-bottom: 3rem;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form .fields {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+
+.form button {
+    margin-top: 4rem;
+    width: 100%;
+}
+
+
+
+.password-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    gap: 1rem;
+
+}
+
+
+.password-container .password {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--white);
+    border-radius: 0.3rem;
+    resize: none;
+    outline: none;
+    text-align: center;
+    cursor: not-allowed;
+
+}
+
+
+.password-container img {
+    cursor: pointer;
+}
+
+
+.password-container.visible {
+    display: flex;
+}
