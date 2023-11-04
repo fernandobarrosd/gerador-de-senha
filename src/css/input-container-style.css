@@ -1,0 +1,13 @@
+.input-container {
+    display: flex;
+    gap: 1rem;
+    width: max-content;
+    align-items: center;
+}
+
+.input-container input {
+    background-color: var(--primary-color);
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+    color: var(--white);
+}
